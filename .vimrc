@@ -1,5 +1,5 @@
 set number
-colorscheme molokai 
+colorscheme beekai 
 syntax on
 set nowrap
 

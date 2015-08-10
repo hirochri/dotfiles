@@ -1,3 +1,4 @@
+export PS1="[\[\e[34m\]\u\[\e[m\] @ \[\e[35m\]\T\[\e[m\]] \[\e[36m\]\w\[\e[m\]\n\$ "
 
 #########
 # Aliases
@@ -18,10 +19,10 @@ up(){
   cd $d
 }
 
-
-
-#Makes clear fast
+alias ls='ls -GF'
 alias c='clear'
+alias cls='clear && ls'
+
 
 #calculator
 alias calc='bc -l'
