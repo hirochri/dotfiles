@@ -20,6 +20,7 @@ up(){
 }
 
 alias ls='ls -GF'
+alias lsa='ls -a'
 alias cls='clear && ls'
 
 #FOR CAEN
