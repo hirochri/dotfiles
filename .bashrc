@@ -22,6 +22,7 @@ up(){
 alias ls='ls -GF'
 alias lsa='ls -a'
 alias cls='clear && ls'
+alias clsa="clear && ls -a"
 
 #FOR CAEN
 alias caen='ssh hirochri@login-course.engin.umich.edu'
