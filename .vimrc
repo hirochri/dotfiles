@@ -1,5 +1,5 @@
 set number
-colorscheme molokai 
+colorscheme smyck 
 syntax on
 set nowrap
 

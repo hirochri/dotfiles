@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/hiro/Desktop/280PAST/280p3'
+let g:netrw_dirhist_2='/Users/hiro/Downloads/p4-starters'
+let g:netrw_dirhist_3='/Users/hiro/Downloads/testytesttests'
+let g:netrw_dirhist_4='/Users/hiro/Downloads'
+let g:netrw_dirhist_5='/Users/hiro/Downloads/p2 3'
