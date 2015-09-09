@@ -46,4 +46,5 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
+let mapleader=","
 let g:tex_flavor='latex'
