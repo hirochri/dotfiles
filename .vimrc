@@ -13,7 +13,7 @@ call vundle#end()
 filetype plugin indent on
 " END VUNDLE
 
-let mapleader=","
+"let mapleader=","
 let g:tex_flavor='latex'
 
 set number
