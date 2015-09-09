@@ -30,6 +30,8 @@ filetype plugin indent on    " required
 
 
 
+let mapleader=","
+let g:tex_flavor='latex'
 
 set number
 colorscheme monokai 
@@ -46,5 +48,3 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
-let mapleader=","
-let g:tex_flavor='latex'
