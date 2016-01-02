@@ -13,6 +13,8 @@ Plugin 'scrooloose/syntastic'
 
 Plugin 'vim-scripts/OmniCppComplete'
 
+Plugin 'majutsushi/tagbar'
+
 call vundle#end()
 filetype plugin indent on
 set nocp

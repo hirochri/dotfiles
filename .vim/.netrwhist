@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/hiro/Desktop/280PAST/280p3'
-let g:netrw_dirhist_2='/Users/hiro/Downloads/p4-starters'
-let g:netrw_dirhist_3='/Users/hiro/Downloads/testytesttests'
-let g:netrw_dirhist_4='/Users/hiro/Downloads'
-let g:netrw_dirhist_5='/Users/hiro/Downloads/p2 3'
-let g:netrw_dirhist_6='/Users/hiro/Desktop'
-let g:netrw_dirhist_7='/Users/hiro/Desktop/lab11'
-let g:netrw_dirhist_8='/Users/hiro/.oh-my-zsh'
-let g:netrw_dirhist_9='/Users/hiro/.oh-my-zsh/plugins'
+let g:netrw_dirhist_cnt =0
