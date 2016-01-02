@@ -17,7 +17,7 @@ filetype plugin indent on
 let g:tex_flavor='latex'
 
 set number
-colorscheme monokai 
+colorscheme molokai 
 syntax on
 set nowrap
 
