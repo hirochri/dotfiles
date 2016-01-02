@@ -9,6 +9,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'LaTeX-Box-Team/LaTeX-Box'
 
+Plugin 'scrooloose/syntastic'
+
 call vundle#end()
 filetype plugin indent on
 " END VUNDLE
