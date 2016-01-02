@@ -30,7 +30,8 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 "END syntastic
 "START tagbar
-nnoremap <silent> <F1> :TagbarOpenAutoClose<CR>
+nnoremap <silent> <F2> :TagbarOpenAutoClose<CR>
+nnoremap <silent> <F1> :TagbarToggle<CR>
 "END tagbar
 
 "let mapleader=","
