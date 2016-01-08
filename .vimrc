@@ -11,8 +11,6 @@ Plugin 'LaTeX-Box-Team/LaTeX-Box'
 
 Plugin 'scrooloose/syntastic'
 
-Plugin 'vim-scripts/OmniCppComplete'
-
 Plugin 'majutsushi/tagbar'
 
 call vundle#end()
