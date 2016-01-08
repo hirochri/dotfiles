@@ -11,7 +11,7 @@ Plugin 'LaTeX-Box-Team/LaTeX-Box'
 
 Plugin 'majutsushi/tagbar'
 
-Plugin 'Rip-Rip/clang_complete'
+Plugin 'ervandew/supertab'
 
 
 call vundle#end()
