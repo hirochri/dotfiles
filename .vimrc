@@ -11,6 +11,8 @@ Plugin 'LaTeX-Box-Team/LaTeX-Box'
 
 Plugin 'scrooloose/syntastic'
 
+Plugin 'Valloric/YouCompleteMe'
+
 Plugin 'majutsushi/tagbar'
 
 call vundle#end()
