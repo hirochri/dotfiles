@@ -10,9 +10,13 @@ alias clsa="clear && ls -a"
 
 #FOR CAEN
 alias caen='ssh hirochri@login-course.engin.umich.edu'
+alias save=''
 
 # Enable/disable for HHKB
 alias keydisable='sudo kextunload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext/'
 alias keyenable='sudo kextload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext/'
+
+#FOR 281
+module load gcc/5.1.0
 
 
