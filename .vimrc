@@ -7,7 +7,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'LaTeX-Box-Team/LaTeX-Box'
+"Plugin 'LaTeX-Box-Team/LaTeX-Box'
 
 Plugin 'majutsushi/tagbar'
 
