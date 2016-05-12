@@ -7,8 +7,6 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
-"Plugin 'LaTeX-Box-Team/LaTeX-Box'
-
 Plugin 'majutsushi/tagbar'
 
 Plugin 'ervandew/supertab'
@@ -22,11 +20,14 @@ nnoremap <silent> <F2> :TagbarOpenAutoClose<CR>
 nnoremap <silent> <F1> :TagbarToggle<CR>
 "END tagbar
 
-"let mapleader=","
+set t_Co=256 "this doesn't set it....
+set term=builtin_xterm
 let g:tex_flavor='latex'
 
+
+
 set number
-colorscheme molokai 
+colorscheme buttercream
 syntax on
 set nowrap
 
