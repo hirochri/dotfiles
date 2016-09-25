@@ -6,10 +6,9 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-
 Plugin 'majutsushi/tagbar'
-
 Plugin 'ervandew/supertab'
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()
 filetype plugin indent on
@@ -27,7 +26,7 @@ let g:tex_flavor='latex'
 
 
 set number
-colorscheme buttercream
+"colorscheme buttercream
 syntax on
 set nowrap
 
@@ -41,3 +40,6 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set backspace=indent,eol,start
+
+"For ejs
+au BufNewFile,BufRead *.ejs set filetype=html

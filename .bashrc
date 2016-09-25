@@ -1,4 +1,5 @@
-export PS1="\[\e[33m\]\w\[\e[m\]\n\$ "
+export PS1="\[\e[32m\]\w\[\e[m\]\n\$ "
+export PATH=$PATH:/usr/local/bin
 
 #########
 # Aliases
@@ -7,6 +8,13 @@ alias ls='ls -GF'
 alias lsa='ls -a'
 alias cls='clear && ls'
 alias clsa="clear && ls -a"
+
+#postgresql
+alias db='psql nuaddb'
+alias dbtables='psql nuaddb -a -f sql/create_tables.sql'
+
+#node
+alias ntree="tree -I 'node_modules'"
 
 #FOR CAEN
 alias caen='ssh hirochri@login-course.engin.umich.edu'
