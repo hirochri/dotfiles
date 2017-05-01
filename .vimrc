@@ -52,5 +52,7 @@ set shiftwidth=2
 set expandtab
 set backspace=indent,eol,start
 
+set mouse=a
+
 "For ejs
 au BufNewFile,BufRead *.ejs set filetype=html

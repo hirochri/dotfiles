@@ -1,4 +1,4 @@
-export PS1="\[\e[32m\]\w\[\e[m\]\n\$ "
+export PS1="\[\e[36m\]\w\[\e[m\]\n\$ "
 export PATH=$PATH:/usr/local/bin:/usr/local/mysql/bin/
 #export ANDROID_HOME=/usr/local/opt/android-sdk
 
