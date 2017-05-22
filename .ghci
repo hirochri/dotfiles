@@ -1,0 +1,2 @@
+:set prompt "\ESC[2m%s\n\ESC[m\ESC[95mλ \ESC[m"
+

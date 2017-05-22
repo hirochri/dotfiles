@@ -13,6 +13,7 @@ Plugin 'jceb/vim-orgmode'
 Plugin 'tpope/vim-speeddating'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'itchyny/vim-haskell-indent'
 
 call vundle#end()
 filetype plugin indent on
@@ -37,6 +38,7 @@ set number
 "colorscheme buttercream
 syntax on
 set nowrap
+set mouse=a
 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
