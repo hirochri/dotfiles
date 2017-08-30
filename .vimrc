@@ -29,13 +29,8 @@ set t_Co=256 "this doesn't set it....
 set term=builtin_xterm
 let mapleader=","
 let g:tex_flavor='latex'
-let g:jsx_ext_required = 0 " Allow JSX in normal files
-
-
-
 
 set number
-"colorscheme buttercream
 syntax on
 set nowrap
 set mouse=a
@@ -45,16 +40,10 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-"set tabstop=4
-"set softtabstop=4
-"set shiftwidth=4
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab
 set backspace=indent,eol,start
 
-set mouse=a
-
-"For ejs
-au BufNewFile,BufRead *.ejs set filetype=html
+autocmd Filetype python setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab backspace=indent,eol,start
